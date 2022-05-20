@@ -663,6 +663,7 @@ progress {
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+	padding:0;
   }
 }
 @media (min-width: 1400px) {
@@ -11323,4 +11324,97 @@ img, svg {
 .card img{
     vertical-align: middle;
     width: 80%;
+}
+
+
+/* cine */
+
+
+
+.container {
+    margin: auto;
+}
+
+#apiDiv {
+    border: dashed 2px rgb(249, 0, 0);
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#apiDiv input,
+#apiDiv button {
+    font-size: 25px;
+    color: #000;
+}
+
+#apiDiv h4 {
+    margin: 10px 0;
+}
+
+#apiDiv .imageDiv {
+    text-align: center;
+}
+
+#apiDiv .imageDiv img {
+    display: none;
+}
+
+#apiDiv #message {
+    padding-top: 10px;
+}
+
+#apiDiv #message .resultDiv {
+    background: rgb(253, 253, 253);
+    display: inline-block;
+}
+
+#apiDiv #message .resultDiv>p {
+    color: #000;
+    display: inline-block;
+    width: 95%;
+    padding: 10px;
+    border-bottom: double 2px #CCC;
+}
+
+#apiDiv #message .resultDiv .result {
+    width: 23%;
+    height: 300px;
+    padding: 6px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+#apiDiv #message .resultDiv .result img {
+    width: 75%;
+}
+
+#apiDiv #message .resultDiv .result p {
+    margin: 0;
+}
+
+#apiDiv #message .resultDiv .result p a {
+    color: #010000;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100px;
+}
+
+#apiDiv #message .resultDiv .result p a:hover {
+    text-decoration: underline;
+}
+
+#myModal {
+    color: #000;
+}
+
+#reset {
+    padding: 5px 10px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#reset:hover {
+    color: #ccc;
 }
